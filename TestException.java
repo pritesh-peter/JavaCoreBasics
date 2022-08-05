@@ -14,6 +14,10 @@ public class TestException
 		{
 		System.out.println(e.getMessage());
 		}
+		finally
+		{
+		System.out.println("Displaying in finally block");
+		}
 
 		System.out.println("Terminating");
 		}
