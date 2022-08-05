@@ -14,6 +14,10 @@ public class TestException
 		{
 		System.out.println(e.getMessage());
 		}
+		catch(NumberFormatException e)
+		{
+		System.out.println(e.getMessage());
+		}
 		System.out.println("Terminating");
 		}
 
