@@ -10,14 +10,11 @@ public class TestException
 		int abc = n1/n2;
 		System.out.println("Division is "+abc);
 		}
-		catch(ArithmeticException e)
+		catch(Exception e)
 		{
 		System.out.println(e.getMessage());
 		}
-		catch(NumberFormatException e)
-		{
-		System.out.println(e.getMessage());
-		}
+
 		System.out.println("Terminating");
 		}
 
